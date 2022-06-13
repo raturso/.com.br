@@ -5,25 +5,28 @@ margin: 0 auto;
 }
 
 ul{
-    padding: 0px!important;
+    padding-left: 132px;
+    margin-top: -68px;
 }
 .menu-principal {
     width: 100%;
-    background-image: radial-gradient(circle at 49.77% 50.28%, #a48cde 0, #897bd8 25%, #686ad2 50%, #3a5bcc 75%, #004ec6 100%);;
-    height: 120px;
+    background-color: darkcyan;
 }
 main {
 margin: 0 auto;
-width: 980px;
+width: 1080px;
 position: relative;
+
 }
+
+
 
 .logo {
     width: 60%;
     float: left;
     position: absolute;
-    padding: 25px;
-   
+    padding: 23px;
+   margin-left: 2px;
 }
 
 .redes-sociais ul li {
@@ -37,11 +40,11 @@ position: relative;
 
     width: 30%;
     float: right;
-    margin-top: -48px
+    margin-top: -48px;
     
 }
 .header-2{
-background-color: #ffffff;
+background-color: transparent;
 width: 980px;
 margin: auto;
 padding: 10px;
@@ -53,6 +56,7 @@ height: 10px;
 border-bottom: 10px solid #000000;
 height: 5px;
 margin-top: -5px;
+
 }
 .menu ul li{
     margin-left: 10px;
@@ -67,13 +71,13 @@ margin-top: -5px;
     color: aqua;
 }
 .menu ul li a {
-    text-decoration: none;
+    margin-left: 20px;
     color: #000000;
     font-size: 18px;
     text-transform: uppercase;
 }
 .menu {
-    width: 60%;
+    width: 100%;
     float: left;
 }
 .slider-principal {
@@ -82,20 +86,9 @@ margin-top: -5px;
     position: relative;
 }
 
-.busca {
-    width: 30%;
-    float:right;
-    text-align: center;
-    
-}
-.busca imput {
-    background-image: url('../img/instagram.png');
-    background-repeat: no-repeat;
-    height: 50px;
-    margin-top: 10px;
-    width: 190px;
+
        
-}
+
 @font-face {
     font-family: 'gamegirl';
     src: url("../fonts/GAMEG___.TTF") format('truetype');
@@ -118,7 +111,7 @@ button.slick-prev {
     width: 50px;
     height: 50px;
     background-color: transparent;
-    background-image: url('../img/left.png');
+    
     top: 35%;
     left: 0%;
 }
@@ -151,7 +144,7 @@ button.slick-next {
     margin: 0 auto;
     width: 50%;
     position: absolute;
-    left: 48%;
+    left: 40%;
     top: 350px;
 
 }
@@ -175,11 +168,11 @@ li.slick-active button{
 }
 .texto-destaque strong{
     color:#000000;
-    font-family: 'gamegirl';
+    font-family: 'Arial';
 }
 .texto-destaque p{
     font-size: 15px;
-    color:#63666a
+    color:#000000;
 }
 .col-3 {
     width: 33%;
@@ -207,83 +200,11 @@ li.slick-active button{
     background-image: url("../img/background\ end2.jpg");
     
 }
-.end2 ul li{
-   font-weight: bold;
-    font-size: 20px;
-   
-}
 
-	*{
-		margin: 0;
-		padding: 0;
-	}
+
 
 	body{
-		background-color: #ddd;
+        background-image: url("../img/background\ body.png");
+		
 		font-family: 'Roboto Condensed';
 	}
-
-	.nav_tabs{
-		width: 980px;
-		height: 600px;
-		margin: 100px auto;
-		background-color: #fff;
-		position: relative;
-
-    margin-top: 750px;
-	}
-
-	.nav_tabs ul{
-		list-style: none;
-	}
-
-	.nav_tabs ul li{
-		float: left;
-	}
-
-	.tab_label{
-		display: block;
-		width: 276.5px;
-		background-color: #363b48;
-		padding: 25px;
-		font-size: 20px;
-		color:#fff;
-		cursor: pointer;
-		text-align: center;
-	}
-
-
-	.nav_tabs .rd_tab { 
-	display:none;
-	position: absolute;
-}
-
-.nav_tabs .rd_tab:checked ~ label { 
-	background-color: #e54e43;
-	color:#fff;}
-
-.tab-content{
-	border-top: solid 5px #e54e43;
-	background-color: #fff;
-	display: none;
-	position: absolute;
-	height: 320px;
-	width: 980px;
-	left: 0;	
-}
-
-.rd_tab:checked ~ .tab-content{
-	display: block;
-}
-.tab-content h2{
-	padding: 10px;
-	color: #87d3b7;
-}
-.tab-content article{
-	padding: 10px;
-	color: #555;
-}
-.data{
-    height: 700px;
-    width: 480px;
-}
